@@ -3,16 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ntorrent", "src\ntorrent.vcxproj", "{3799966C-A7F8-4995-8CA7-C3950C3C0C90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
-		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3799966C-A7F8-4995-8CA7-C3950C3C0C90}.Debug|x64.ActiveCfg = Debug|x64
+		{3799966C-A7F8-4995-8CA7-C3950C3C0C90}.Debug|x64.Build.0 = Debug|x64
+		{3799966C-A7F8-4995-8CA7-C3950C3C0C90}.Debug|x86.ActiveCfg = Debug|Win32
+		{3799966C-A7F8-4995-8CA7-C3950C3C0C90}.Debug|x86.Build.0 = Debug|Win32
+		{3799966C-A7F8-4995-8CA7-C3950C3C0C90}.Release|x64.ActiveCfg = Release|x64
+		{3799966C-A7F8-4995-8CA7-C3950C3C0C90}.Release|x64.Build.0 = Release|x64
+		{3799966C-A7F8-4995-8CA7-C3950C3C0C90}.Release|x86.ActiveCfg = Release|Win32
+		{3799966C-A7F8-4995-8CA7-C3950C3C0C90}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5845880C-FEB6-43CE-B6CB-BAF5232B4879}
 	EndGlobalSection
 EndGlobal
